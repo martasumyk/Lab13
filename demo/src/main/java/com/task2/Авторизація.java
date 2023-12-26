@@ -1,4 +1,4 @@
-package db;
+package com.task2;
 
 public class Авторизація {
     public boolean авторизуватися(БазаДаних db) {

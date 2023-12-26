@@ -2,6 +2,8 @@ package com.task1;
 
 import java.time.LocalDate;
 
+// Обджект адаптер
+
 public class MyFacebookUser implements User{
 
     private FacebookUser facebookUser;
@@ -16,7 +18,7 @@ public class MyFacebookUser implements User{
     }
 
     @Override
-    public String getCounty() {
+    public String getCountry() {
         return facebookUser.getCountry();
 
     }

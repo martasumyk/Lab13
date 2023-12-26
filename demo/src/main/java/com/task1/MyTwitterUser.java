@@ -2,6 +2,8 @@ package com.task1;
 
 import java.time.LocalDate;
 
+// Обджект адаптер
+
 public class MyTwitterUser implements User{
 
     private TwitterUser tritterUser;
@@ -16,7 +18,7 @@ public class MyTwitterUser implements User{
     }
 
     @Override
-    public String getCounty() {
+    public String getCountry() {
         return tritterUser.getCountry();
 
     }
